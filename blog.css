@@ -1,0 +1,1396 @@
+body {
+    margin : 0;
+    background-color: rgba(250, 248, 248, 0.966);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    margin : 15px 0px 0px 90px; 
+    border-radius: 75px;
+    background-color: rgba(6, 21, 66, 0.918);
+    border: 2px solid rgb(4, 16, 51);
+    display: inline-block;
+    width : 85%;
+    height: 100px;
+}
+
+header img {
+    height: 200px;
+    margin: -50px 0px 0px 20px ;
+}
+
+header ul {
+    float : right;
+    margin : -120px 30px 0px 0px;
+}
+
+header ul li {
+    display: inline;
+    padding : 25px;
+}
+
+header ul li a {
+    color : whitesmoke;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+header ul li a:active {
+    color : rgb(153, 151, 151);
+}
+
+main .historique {
+    margin : -20px 0px 0px 150px; 
+    font-size: 2.2em;
+    font-family: 'Dancing Script';
+}
+
+main .description {
+    margin : 10px 0px 0px 90px; 
+    width : 85%;
+    padding: 8px;
+    height : 345px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid rgba(233, 232, 232, 0.897);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+    display: flex;
+}
+
+main .description p {
+    font-size: 0.91em;
+}
+
+main .description img {
+    width : 100%;
+}
+
+span {
+    font-family: inherit 'courrier new';
+    font-weight: 900;
+}
+
+ .lieu {
+    flex : 0 0 43.5%;
+    position: relative;
+}
+
+ .lieu h2 {
+    position : absolute;
+    bottom : -10px;
+    left: 20px;
+    font-size: 1.8em;
+    color : whitesmoke;
+}
+
+.part1, .part2 {
+    margin-left: 10px;
+    flex : 1 0 25%;
+}
+
+.part1 img {
+    height : 51%;
+}
+
+.part1 p {
+    margin-top: -3px;
+}
+
+.part2 {
+    margin-top: -20px;
+}
+
+.part2 img {
+    margin-top: -5px;
+    height: 47%;
+}
+
+.teamwork {
+    margin : 70px 0px 0px 90px; 
+    display: flex;
+    align-items: center;
+}
+
+.teamwork h2 {
+    font-size: 1.9em;
+    font-family: 'dancing script';
+}
+
+.teamwork img {
+    height: 140px;
+}
+
+.mention {
+    width: 43%;
+}
+
+.mention p {
+    width: 80%;
+}
+
+.equipe {
+    display : flex;
+    align-items: flex-start;
+    margin : 0px 110px 0px 30px;
+}
+
+.equipe img {
+    padding : 3px;
+}
+
+.staff2 {
+    margin-top: 60px;
+}
+
+main .service {
+    margin : 60px 0px 0px 140px; 
+    width : 85%;
+    text-align : center;
+}
+
+.service h2 {
+    width : 55%;
+    font-size: 2em;
+    margin-left: 200px;
+    color : rgba(6, 21, 66, 0.918);
+}
+
+.service .grid {
+    display : flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.grid .info {
+    width : 25%;
+    height : 170px;
+    padding: 20px;
+    margin : 10px;
+    background-color: rgba(255, 208, 0, 0.856);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.377);
+    font-weight: bolder;
+}
+
+.info i, .info p {
+    margin-top: 20px;
+}
+
+main .newcard {
+    width : 85%;
+    margin : 70px 0px 0px 140px; 
+    display: flex;
+}
+
+.newcard .image {
+    flex: 0 0 70%;
+}
+
+.newcard img {
+    width: 55%;
+    position: relative;
+}
+
+.image p {
+    color: whitesmoke;
+    font-size: 1.5em;
+    position: absolute;
+    top : 1760px;
+    left : 170px;
+}
+
+.newcard .texte {
+    width : 40%;
+    position: absolute;
+    right : 150px;
+}
+
+.newcard .texte h2 {
+    font-size: 2em;
+    font-family: 'dancing script';
+}
+
+.newcard .texte p {
+    width: 75%;
+}
+
+.texte .option {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+}
+
+.texte .contenu {
+    position: relative;
+    top : 40px;
+}
+
+.texte .contenu a {
+    text-decoration: none;
+    font-weight: bold;
+    color : rgba(6, 21, 66, 0.918);
+    font-size: 1.1em;
+}
+
+.texte .carte {
+    position: relative;
+    top : 15px;
+    padding : 20px;
+    background-color: rgba(255, 208, 0, 0.856);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.377);
+    text-align: center;
+}
+
+.texte .carte p {
+    position: absolute;
+    top : 400px;
+}
+
+.texte .carte a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding-right: 15px;
+    font-size: 1.1em;
+}
+
+main .offer {
+    width : 85%;
+    margin : 75px 0px 0px 140px; 
+    display: flex;
+}
+
+.offer .offre {
+    margin: 50px 0px 0px 70px;
+}
+
+.offre h2 {
+    font-size: 2em;
+    font-family: 'dancing script';
+}
+
+.offre p {
+    width : 70%;
+}
+
+.offer .chef {
+    flex : 0 0 65%;
+}
+
+.chef img {
+    width : 550px;
+    margin-left: 80px;
+    position: relative;
+}
+
+.chef p {
+    width : 15%;
+    position: absolute;
+    top : 1970px;
+    right : 220px;
+    color : whitesmoke;
+    font-size: 1.8em;
+    font-weight: 1000;
+}
+
+main .pionnier {
+    width : 90%;
+    margin : 85px 0px 0px 100px; 
+}
+
+.pionnier h2 {
+    font-size: 2em;
+    text-align: center;
+    color : rgba(6, 21, 66, 0.918);
+}
+
+.pionnier .grille {
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.pionnier img {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.16);
+    height : 235px;
+    padding: 5px;
+}
+
+.pionnier p {
+    font-weight: 700;
+}
+
+footer {
+    margin-top: 35px;
+    background-color: rgba(6, 21, 66, 0.918);
+    color : whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 5px;
+}
+
+footer .foodster {
+    width : 17%;
+    margin : 0px 60px 0px 30px;
+}
+
+.foodster img {
+    position : absolute;
+    top : 3405px;
+    width: 150px;
+}
+
+.foodster p {
+    margin-top: 110px;
+}
+
+.category h3 {
+    margin-left: 40px;
+}
+
+.category ul li {
+    list-style-type: none;
+    padding : 1px;
+}
+
+.category ul li a {
+    text-decoration: none;
+    color : whitesmoke;
+}
+
+.category ul li a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    margin-left: 20px;
+}
+
+.card h3 {
+    margin-left: 40px;
+}
+
+.card ul li {
+    list-style-type: none;
+    padding : 1px;
+}
+
+.card ul li a {
+    text-decoration: none;
+    color : whitesmoke;
+}
+
+.card ul li a:hover {
+    text-decoration: underline;
+}
+
+.information {
+    margin-left: 60px;
+    display : flex;
+}
+
+.information .font {
+    margin : 67px 0px 0px -50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.information i {
+    padding-bottom: 7px;
+}
+
+.information .para {
+    margin : 59px 0px 0px 5px;
+}
+
+.information p {
+    margin : 3px;
+}
+
+#end {
+    margin : 5px 0px 0px 80px;
+}
+
+.mailus {
+    font-size: 0.9em;
+}
+
+.mailus input{
+    width : 70%;
+    height: 22px;
+    border : none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.mailus .ok {
+    font-weight: 700;
+    background-color: rgba(255, 208, 0, 0.856);;
+    color : black;
+    width : 15%;
+    height: 22px;
+    cursor : pointer;
+}
+
+.ref {
+    margin-top : 60px;
+    text-align : right;
+}
+
+.ref i {
+    padding-right : 10px;
+}
+
+.ref p{
+    margin : 0;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width : 1335px) {
+    body {
+        width : 100%;
+    }
+    #end {
+        margin-left: 40px;
+    }
+    .foodster p {
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width : 1304px) {
+    body {
+        width : 100%;
+    }
+    .chef p {
+        top : 1940px;
+        right : 150px;
+    }
+    .foodster img {
+        top : 3440px;
+    }
+}
+
+@media screen and (max-width : 1289px) {
+    body {
+        width : 100%;
+    }
+    main .description {
+        padding : none;
+        border : none;
+        box-shadow: none;
+    }
+    .lieu {
+        flex : 0 0 50%;
+    }
+    .lieu img {
+        width : 60%;
+    }
+    .part1, .part2 {
+        margin-left: 10px;
+        flex : 1 0 23%;
+    }
+    .part2 img {
+        height : 40%;
+    }
+    .image p {
+        top : 1810px;
+    }
+    .chef p {
+        top : 2000px;
+        right : 150px;
+    }
+    footer {
+        font-size: 0.9em;
+    }
+    .foodster img {
+        top : 3450px;
+    }
+    .information .font {
+        margin : 63px 0px 0px -50px;
+    }
+
+    .information .para {
+        margin-top : 52px;
+    }
+    #end {
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width : 1234px) {
+    body {
+        width : 100%;
+    }
+    .lieu {
+        flex : 0 0 55%;
+    }
+    .lieu h2 {
+        bottom : -60px;
+    }
+    .lieu img {
+        width : 60%;
+    }
+    .part2 img {
+        height : 40%;
+    }
+    main .service {
+        margin-top: 100px;
+    }
+    .image p {
+        top : 1830px;
+    }
+    .newcard .texte {
+        width : 43%;
+        right : 120px;
+    }
+    .chef p {
+        top : 2030px;
+        right : 120px;
+    }
+    .foodster img {
+        top : 3500px;
+    }
+    #end {
+        margin-left: 50px;
+    }
+} 
+
+@media screen and (max-width : 1220px) {
+    body {
+        width : 100%;
+    }
+    #end {
+        margin-left: 30px;
+    }
+    .lieu {
+        flex : 0 0 60%;
+    }
+    .lieu h2 {
+        bottom : -90px;
+    }
+    .lieu img {
+        width : 60%;
+    }
+    .part1, .part2 {
+        margin-left: 10px;
+        flex : 1 0 22%;
+    }
+    .part2 img {
+        height : 45%;
+    }
+    main .offer {
+        margin-left: 90px;
+    }
+    .chef p {
+        top : 2030px;
+        right : 140px;
+    }
+    main .pionnier {
+        margin-left: 75px;
+    }
+}
+
+@media screen and (max-width : 1200px) {
+    body {
+        width: 100%;
+    }
+    main .description{
+        margin-left: 65px;
+    }
+    .image p {
+        top : 1840px;
+    }
+    .newcard .texte {
+        margin-top : -30px;
+    }
+    .chef p {
+        font-size: 1.7em;
+    }
+    .foodster img {
+        top : 4100px;
+    }
+    .category {
+        margin-left: -50px;
+    }
+    .card {
+        margin-left: -20px;
+    }
+    .information {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width : 1150px) {
+    body {
+        width : 100%;
+    }
+    .lieu {
+        flex : 0 0 67%;
+    }
+    .lieu h2 {
+        bottom : -140px;
+    }
+    .lieu img {
+        height : 140%;
+    }
+    .part1, .part2 {
+        margin-left: 10px;
+        flex : 1 0 18%;
+    }
+    .part2 img {
+        height : 40%;
+    }
+    main .service {
+        margin-top : 190px;
+    }
+    .image p {
+        top : 1980px;
+    }
+    .newcard .texte {
+        width : 40%;
+    }
+    .texte p {
+        margin-top: -10px;
+    }
+    .texte .option {
+        margin-top: -10px;
+    }
+    .chef p {
+        width : 20%;
+        top : 2180px;
+        right : 110px;
+    }
+    .texte .carte {
+        margin-top: -5px;
+        padding: 10px;
+    }
+    .carte p a {
+        font-size: 1em;
+    }
+    .foodster img {
+        top : 4220px;
+    }
+}
+
+@media screen and (max-width : 1100px) {
+    body {
+        width : 100%;
+    }
+    .part2 img {
+        height: 35%;
+    }
+    .texte .carte {
+        visibility: hidden;
+    }
+    .foodster img {
+        top : 4255px;
+    }
+}
+
+@media screen and (max-width : 1090px) {
+    body {
+        width : 100%;
+    }
+    .offre h2 {
+        margin-top: -40px;
+    }
+    .offre p {
+        width : 100%;
+    }
+    .chef {
+        flex : 1 1 0%;
+    }
+    .chef img {
+        width : 590px;
+    }
+    .foodster img {
+            top : 4305px;
+    }
+}
+
+@media screen and (max-width : 1068px) {
+    body {
+        width : 100%;
+    }
+    .teamwork {
+        margin-top: 30px;
+        flex-direction: column;
+        width : 90%;
+    }
+    .teamwork img {
+        height : 190px;
+    }
+    .mention {
+        width : 90%;
+        margin : 0px 0px 40px 90px;
+    }
+    .image p {
+        top : 2065px;
+    }
+    .chef p {
+        top : 2280px;
+        right : 100px;
+    }
+    .foodster img {
+        top : 4320px;
+    }
+}
+
+@media screen and (max-width : 1042px) {
+       body {
+           width : 100%;
+           overflow-x: hidden;
+       }
+       .category {
+           margin-left: 0px;
+       }
+       .card {
+           margin-left: 70px;
+       }
+       .information {
+           margin-left: 120px;
+       }
+       #end {
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+           margin-left : 160px;
+       }
+       .ref {
+           margin : 20px 0px 0px 200px;
+       }
+}
+
+@media screen and (max-width : 1010px) {
+       body {
+           width : 100%;
+           overflow-x : hidden;
+       }
+       main .description {
+           display: block;
+           margin-bottom: 700px;
+       }
+       main .description img {
+           width : 150%;
+       }
+       .lieu {
+           margin-left: 20px;
+           width : 65%;
+       }
+       .lieu h2 {
+           font-size: 2.1em;
+           top : 450px;
+       }
+       .lieu img {
+           width : 80%;
+           height : 85%;
+       }
+       .part1, .part2 {
+           display: flex;
+           margin-top : 5px;
+       }
+       .part1 img, .part2 img {
+           flex : 0 0 40%;
+       }
+       .part1 p{
+           margin : 40px 0px 0px 30px;
+       }
+       .part2 p {
+           margin : 50px 20px 0px 0px;
+       }
+       main .service {
+           margin-left: 90px;
+       }
+       .newcard .texte {
+           right : 70px;
+       }
+       .newcard .texte p {
+           width : 90%;
+       }
+       .image p {
+           top : 2540px;
+       }
+       main .offer {
+           margin-left: 80px;
+       }
+       .chef img {
+           width : 450px;
+       }
+       .chef p {
+           top : 2720px;
+       }
+       .foodster img {
+           top : 4720px;
+       }
+}
+
+@media screen and (max-width : 965px) {
+       body {
+           width : 100%;
+       }
+       .lieu h2 {
+           top : 420px;
+       }
+       main .newcard {
+           margin-left: 85px;
+       }
+       .newcard .texte {
+           width : 51%;
+           right : 50px;
+       }
+       .image p {
+           left : 100px;
+       }
+}
+
+@media screen and (max-width : 910px) {
+       body {
+           width : 100%;
+       }
+       header ul {
+           margin : -130px 0px 0px 150px;
+       }
+       main .description {
+           height : 300px;
+           margin-bottom: 190px;
+       }
+       .lieu {
+           visibility: collapse;
+       }
+       .part1 {
+           margin-top: -470px;
+       }
+       .teamwork img {
+           height : 160px;
+       }
+       .image p {
+           top : 1980px;
+       }
+       .texte .option {
+           visibility: collapse;
+       }
+       .newcard .texte {
+           width : 52%;
+           right : 20px;
+       }
+       main .offer {
+           margin-left: 30px;
+       }
+       .chef p {
+           font-size: 1.6em;
+           top : 2170px;
+           right : 90px;
+       }
+       .foodster img{
+           top : 4170px;
+       }
+       .category {
+           margin-left: -40px;
+       }
+       .card {
+           margin-left: 30px;
+       }
+       #end {
+           margin-left: 90px;
+       }
+}
+
+@media screen and (max-width : 863px) {
+    body {
+        width : 100%;
+    }
+    main .historique {
+        margin-bottom: 30px;
+    }
+    main .description {
+        height : 250px;
+        margin-bottom: 80px;
+    }
+    main .service {
+        margin-left: 100px;
+    }
+    .service h2 {
+        margin-left: 150px;
+    }
+    .grid .info {
+        font-size: smaller;
+        padding: 10px;
+    }
+    .image p {
+        font-size: 1.3em;
+        top : 1915px;
+    }
+    .chef p {
+        font-size: 1.4em;
+        top : 2100px;
+        right : 50px;
+    }
+    main .pionnier {
+        margin-left: 50px;
+    }
+    .pionnier img {
+        height : 190px;
+    }
+    .foodster img {
+        top : 3870px;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    body {
+        width : 100%;
+    }
+    main .historique {
+        margin-bottom: 55px;
+    }
+    main .description {
+        height : 130px;
+    }
+    .part1 img, .part2 img {
+        flex : 0 0 33%;
+    }
+    .part1 p {
+        margin-top : 0px;
+    }
+    .part2 p {
+        margin-top: 10px;
+    }
+    .image p {
+        top : 1830px;
+    }
+    .chef img {
+        width : 350px;
+    }
+    .offer .offre {
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+    .offre h2 {
+        width : 130%;
+    }
+    .offre p {
+        width : 150%;
+    }
+    .offer .chef {
+        margin-left: 50px;
+    }
+    .chef p {
+        font-size: 1.2em;
+        top : 2000px;
+        right: 45px;
+    }
+    .foodster img {
+        top : 3680px;
+    }
+    .information {
+        margin-left: 70px;
+    }
+    .ref {
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width : 750px) {
+    body {
+        width : 100%;
+    }
+    main .historique {
+        margin-bottom: 75px;
+    }
+    main .description {
+        margin-left: 35px;
+        height : 170px;
+        flex-direction: block;
+    }
+    .part1 img, .part2 img {
+        flex : 0 0 45%;
+        padding-top: 10px;
+    }
+    .part1 p{
+        margin: 30px -50px 0px 15px;
+    }
+    .part2 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .part2 p {
+        margin: 25px -50px 0px 15px;
+    }
+    main .service {
+        margin-left: 80px;
+    }
+    .service h2 {
+        width : 80%;
+        margin-left: 60px;
+    }
+    .teamwork .mention {
+        margin-left: 50px;
+    }
+    main .newcard {
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+    .newcard .image {
+        flex : 0 0 100%;
+    }
+    .newcard img {
+        width : 60%;
+        margin: -20px 0px 0px 90px;
+    }
+    .newcard .texte {
+        position: static;
+        width : 100%;
+    }
+    .image p {
+        top : 2110px;
+        left : 200px;
+    }
+    main .offer {
+        margin: 45px 0px 0px -30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .offer .offre {
+        width : 60%;
+    }
+    .offre h2 {
+        width : 150%;
+    }
+    .offre p {
+        margin-top: -10px;
+    }
+    .chef img{
+        margin-left: 50px;
+        width : 100%;
+    }
+    .chef p {
+        top : 2390px;
+        right : 200px;
+    }
+    main .pionnier {
+        margin-top: 60px;
+    }
+    .pionnier h2 {
+        font-size: 1.7em;
+    }
+    footer {
+        overflow-y: hidden;
+    }
+    footer .foodster {
+        visibility: collapse;
+    }
+    .category {
+        margin-left: 10px;
+    }
+    .card {
+        margin-left: 80px;
+    }
+    .information {
+        margin-left: 140px;
+    }
+    #end {
+        margin : -40px 0px 0px 50px;
+    }
+}
+
+@media screen and (max-width : 720px) {
+    body {
+        width : 100%;
+    }
+    header {
+        margin-left: 50px;
+    }
+    main .historique {
+        margin-bottom: 90px;
+    }
+    .teamwork img {
+        height : 120px;
+    }
+    .image p {
+        top : 2070px;
+    }
+    main .offer {
+        margin-top: 25px;
+    }
+    .chef img {
+        margin-top: 20px;
+    }
+    .chef p {
+        top : 2390px;
+        right : 185px;
+    }
+    .card {
+        margin-left: 40px;
+    }
+    .information {
+        margin-left: 100px;
+    }
+    #end {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width : 670px) {
+    body {
+        width : 100%;
+    }
+    main .historique {
+        margin-bottom: 120px;
+    }
+    main .description {
+        margin-bottom: -70px;
+    }
+    .part1 p {
+        margin-top: 10px;
+    }
+    .part2 p {
+        margin-top: 10px;
+    }
+    .info p {
+        font-size: 0.9em;
+    }
+    .teamwork {
+        margin-left: 40px;
+    }
+    .equipe {
+        margin-left: 100px;
+    }
+    .newcard img {
+        margin-left: 70px;
+    }
+    .image p {
+        top : 2020px;
+        left : 180px;
+    }
+    main .offer {
+        margin-top : 60px;
+    }
+    .chef p {
+        font-size: 1.1em;
+        top : 2370px;
+        right : 170px;
+    }
+    .pionnier img {
+        height : 170px;
+    }
+    .mailus {
+        visibility: collapse;
+    }
+    .ref {
+        margin-left: 170px;
+        text-align: center;
+    }
+    .ref i {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width : 620px) {
+    body {
+        width : 100%;
+    }
+    header ul li a{
+        font-size: 1em;
+    }
+    main .historique {
+        margin-bottom: 150px;
+    }
+    main .description {
+        font-size: 0.95em;
+    }
+    main .service {
+        margin: 140px 0px 0px 55px;
+    }
+    .service h2 {
+        font-size: 1.5em;
+    }
+    .image p {
+        top : 1960px;
+    }
+    .chef p {
+        width : 20%;
+        top : 2300px;
+    }
+    .pionnier h2 {
+        font-size: 1.4em;
+    }
+    .pionnier img {
+        height : 150px;
+    }
+    .card {
+        margin-left: 20px;
+    }
+    .information {
+        margin-left: 75px;
+    }
+}
+
+@media screen and (max-width : 581px) {
+    body {
+        width : 100%;
+    }
+    main .historique {
+        font-size: 1.8em;
+        margin-bottom: 160px;
+    }
+    .part2 p {
+        margin-top: 0px;
+    }
+    main .service {
+        margin-top: 100px;
+    }
+    .service h2 {
+        margin-left: 40px;
+    }
+    .service .grid {
+        margin-left: 10px;
+    }
+    .grid .info {
+        padding : 20px;
+        width : 35%;
+    }
+    .teamwork h2 {
+        font-size: 1.8em;
+    }
+    .teamwork img {
+        height: 100px;
+    }
+    .newcard .texte h2 {
+        font-size: 1.8em;
+    }
+    .image p {
+        font-size: 1.2em;
+        top : 2170px;
+    }
+    .offre h2 {
+        font-size: 1.8em;
+    }
+    .chef p {
+        font-size: 1em;
+        top : 2510px;
+        right : 130px;
+    }
+    main .pionnier {
+        margin-left: 20px;
+    }
+    .pionnier .grille {
+        margin-top: -50px;
+        padding: 50px;
+    }
+    .pionnier img {
+        height : 130px;
+    }
+    .pionnier p {
+        font-size: 0.8em;
+    }
+    footer {
+        margin-top: -15px;
+    }
+    .category {
+        margin-left: 0px;
+    }
+    .card {
+        margin-left: 0px;
+    }
+    .information {
+        margin-left: 60px;
+    }
+    .ref {
+        margin-left: 105px;
+    }
+}
+
+@media screen and (max-width : 545px) {
+    body {
+        width : 100%;
+    }
+    main .historique {
+        margin-bottom: 180px;
+    }
+    main .newcard {
+        margin-left: 50px;
+    }
+    .image p {
+        top : 2270px;
+        left : 140px;
+    }
+    .chef p {
+        top : 2580px;
+    }
+    .category {
+        margin-left: -20px;
+    }
+    .card {
+        margin-left: -10px;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    body {
+        width : 100%;
+    }
+    main .historique {
+        margin: 0px 0px 220px 80px;
+    }
+    main .description {
+        height : 550px;
+    }
+    .part1 {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    .part2 {
+        display: flex;
+        flex-direction: column-reverse;
+        width : 60%;
+    }
+    .part1 p, .part2 p {
+        width : 150%;
+    }
+    main .service {
+        margin-left: 45px;
+    }
+    .service .info {
+        margin-left : 90px;
+    } 
+    .image p {
+        top : 3410px;
+    }
+    .chef p {
+        width : 30%;
+        top : 3740px;
+        right : 100px;
+    }
+    .card {
+        margin-left: -20px;
+    }
+    .information {
+        margin-left: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

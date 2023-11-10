@@ -1,0 +1,1271 @@
+body {
+    margin : 0;
+    background-color: rgba(250, 248, 248, 0.966);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    margin : 15px 0px 0px 90px; 
+    border-radius: 75px;
+    background-color: rgba(6, 21, 66, 0.918);
+    border: 2px solid rgb(4, 16, 51);
+    display: inline-block;
+    width : 85%;
+    height: 100px;
+}
+
+header img {
+    height: 200px;
+    margin: -50px 0px 0px 20px ;
+}
+
+header ul {
+    float : right;
+    margin : -120px 30px 0px 0px;
+}
+
+header ul li {
+    display: inline;
+    padding : 25px;
+}
+
+header ul li a {
+    color : whitesmoke;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+header ul li a:active {
+    color : rgb(153, 151, 151);
+}
+
+.quote {
+    width : 85%;
+    margin : -20px 0px 0px 180px; 
+    display: flex;
+}
+
+.quote .devise {
+    margin-left: 30px;
+    display: flex;
+    flex : 0 0 45%;
+}
+
+.devise h3, .devise p {
+    margin-left: 14px;
+}
+
+.devise h3 {
+    font-size: 1em;
+}
+
+.devise p {
+    font-size: 0.9em;
+    padding-top: 10px;
+    width : 80%;
+}
+
+.delicieux, .sain, .abordable {
+    padding: 3px;
+    margin: 1px;
+}
+
+.delicieux h3, .sain h3, .abordable h3 {
+    margin: 25px 0px 0px -5px;
+}
+
+.delicieux, .abordable {
+    background-color: rgba(255, 208, 0, 0.856);
+    width : 200px;
+    height: 200px;
+    border-radius: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.719);
+    margin-top: 70px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.sain {
+    background-color: rgba(255, 208, 0, 0.856);
+    width : 200px;
+    height: 200px;
+    border-radius: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.719);
+    margin-top: -10px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.quote img {
+    width : 29%;
+}
+
+main .menu {
+    width: 85%;
+    margin : 70px 0px 0px 165px; 
+    display: flex;
+    text-align: center;
+}
+
+.menu .entite {
+    width : 130px;
+    height: 30px;
+    border : 2px solid rgba(255, 208, 0, 0.856);
+    border-radius: 25px;
+    margin-right: 40px;
+}
+
+.menu .entite:hover {
+    background-color : rgba(255, 208, 0, 0.856);
+}
+
+.entite h4 {
+    margin-top: 3px;
+}
+
+.entite h4 a {
+    text-decoration: none;
+    color : black;
+}
+
+.entite h4 a:hover {
+    text-decoration: underline;
+}
+
+.entite h4 a:active {
+    color : rgba(5, 5, 5, .50);
+}
+
+main .recette {
+    width : 85%;
+    margin-left : 180px; 
+    display : flex;
+    flex-wrap : wrap;
+    
+}
+
+.recette img {
+    height : 210px;
+    margin : 10px 0px 0px 25px;
+}
+
+.repas {
+    align-items: center;
+    margin : 20px 55px 0px 0px;
+    width : 25%;
+    background-color: white;
+    box-shadow: 0px 0px 7px rgba(1, 1, 1, 0.3);
+}
+
+.repas h3{
+    margin : 0 auto;
+    text-align: center;
+}
+
+.repas p {
+    margin : 10px auto;
+    text-align: center;
+}
+
+.repas .prix {
+    font-weight: bold;
+}
+
+main #nb {
+    background-color: rgba(255, 208, 0, 0.856);
+    border-radius: 50px;
+    height : 290px;
+    width : 70%;
+    margin : 60px 0px 0px 165px;
+    padding : 20px;
+    display : flex;
+    flex-direction: row;
+}
+
+#nb img {
+    width : 350px;
+    margin-left: 20px;
+}
+
+#nb .nbpara {
+    display : flex;
+    flex-direction: column;
+    margin : 0px 30px;
+}
+
+#nb h3 {
+    font-size: 1.6em;
+}
+
+main > h2 {
+    color :rgba(6, 21, 66, 0.918);
+    margin-top: 70px;
+    text-align: center;
+    font-size: 2.3em;
+}
+
+main .accompagnement {
+    width : 90%;
+    display: flex;
+    margin-left: 130px;
+}
+
+.accompagnement .acc1 {
+    width : 42%;
+    display: flex;
+    flex-direction: column;
+}
+
+.accompagnement .acc2 {
+    width : 42%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.features {
+    background-color: white;
+    box-shadow: 0px 0px 7px rgba(1, 1, 1, 0.3);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.features img{
+    width : 130px;
+}
+
+.paracc {
+    width : 50%;
+    margin-left : 30px; 
+}
+
+.prix {
+    font-weight: bolder;
+}
+
+.imgacc {
+    margin: 25px 0px 0px 80px;
+}
+
+main .deliver {
+    width : 85%;
+    margin : 70px 0px 80px 140px; 
+    display: flex;
+}
+
+.deliver .imgdeliver{
+    flex: 0 0 70%;
+}
+
+.deliver img {
+    width: 55%;
+    position: relative;
+}
+
+.deliver .txtdeliver {
+    width : 40%;
+    position: absolute;
+    right : 150px;
+}
+
+.deliver .txtdeliver h2 {
+    font-size: 2em;
+    font-family: 'dancing script';
+}
+
+.txtdeliver .option {
+    width : 50%;
+    position: relative;
+    margin : 60px 0px 0px 200px; 
+    padding : 20px;
+    background-color: rgba(255, 208, 0, 0.856);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.377);
+    text-align: center;
+}
+
+.option .livraison a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding-right: 15px;
+    font-size: 1.1em;
+}
+
+footer {
+    margin-top: 35px;
+    background-color: rgba(6, 21, 66, 0.918);
+    color : whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 5px;
+}
+
+footer .foodster {
+    width : 17%;
+    margin : 0px 60px 0px 30px;
+}
+
+.foodster img {
+    position : absolute;
+    top : 3050px;
+    width: 150px;
+}
+
+.foodster p {
+    margin-top: 110px;
+}
+
+.category h3 {
+    margin-left: 40px;
+}
+
+.category ul li {
+    list-style-type: none;
+    padding : 1px;
+}
+
+.category ul li a {
+    text-decoration: none;
+    color : whitesmoke;
+}
+
+.category ul li a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    margin-left: 20px;
+}
+
+.card h3 {
+    margin-left: 40px;
+}
+
+.card ul li {
+    list-style-type: none;
+    padding : 1px;
+}
+
+.card ul li a {
+    text-decoration: none;
+    color : whitesmoke;
+}
+
+.card ul li a:hover {
+    text-decoration: underline;
+}
+
+.information {
+    margin-left: 60px;
+    display : flex;
+}
+
+.information .font {
+    margin : 67px 0px 0px -50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.information i {
+    padding-bottom: 7px;
+}
+
+.information .para {
+    margin : 59px 0px 0px 5px;
+}
+
+.information p {
+    margin : 3px;
+}
+
+#end {
+    margin : 5px 0px 0px 80px;
+}
+
+.mailus {
+    font-size: 0.9em;
+}
+
+.mailus input{
+    width : 70%;
+    height: 22px;
+    border : none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.mailus .ok {
+    font-weight: 700;
+    background-color: rgba(255, 208, 0, 0.856);;
+    color : black;
+    width : 15%;
+    height: 22px;
+    cursor : pointer;
+}
+
+.ref {
+    margin-top : 60px;
+    text-align : right;
+}
+
+.ref i {
+    padding-right : 10px;
+}
+
+.ref p{
+    margin : 0;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width : 1340px) {
+    body {
+        width : 100%;
+    }
+    .quote {
+        margin-left: 150px;
+    }
+    main .menu {
+        margin-left: 130px;
+    }
+    main .recette {
+        margin-left: 150px;
+    }
+    main #nb {
+        margin-left: 140px;
+    }
+    .deliver .txtdeliver {
+        margin-top: -20px;
+    }
+    .foodster img {
+        top : 3030px;
+    }
+    .category {
+        margin-left: -40px;
+    }
+}
+
+@media screen and (max-width : 1290px) {
+    body {
+        width : 100%;
+    }
+    .recette img {
+        margin-left: 15px;
+    }
+    main .accompagnement{
+        margin-left: 110px;
+    }
+    .imgacc {
+        margin-left: 60px;
+    }
+    .foodster img {
+        top : 3020px;
+    }
+    .category {
+        margin-left: -50px;
+    }
+    .card {
+        margin-left: 0px;
+    }
+    #end {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width : 1250px) {
+    body {
+        width : 100%;
+    }
+    .quote {
+        margin-left: 130px;
+    }
+    main .menu {
+        margin-left: 125px;
+    }
+    .menu .entite {
+        margin-right: 25px;
+    }
+    .repas {
+        margin-left : -5px; 
+    }
+    .imgacc {
+        margin: 15px 0px 0px 10px;
+    }
+    .paracc {
+        margin-left: 15px;
+        width : 65%;
+    }
+    main .deliver {
+        margin-left: 110px;
+    }
+    .deliver .txtdeliver {
+        margin-top: -20px;
+    }
+    .txtdeliver .option {
+        width : 43%;
+        margin-top: 40px;
+    }
+    .foodster img {
+        top : 2970px;
+    }
+}
+
+@media screen and (max-width : 1200px) {
+    body {
+        width : 100%;
+    }
+    .quote {
+        margin-left: 120px;
+    }
+    main .menu {
+        margin-left: 125px;
+    }
+    .menu .entite {
+        margin-right: 20px;
+    }
+    .recette img {
+        height : 190px;
+    }
+    .repas {
+        margin-left : -5px;
+    }
+    main #nb {
+        width : 68%;
+        margin-left: 140px;
+    }
+    #nb img {
+        width : 320px;
+        margin : 15px 0px 0px 5px;
+    }
+    main .accompagnement {
+        margin-left: 100px;
+    }
+    .acc1 .imgacc {
+        margin-left: 90px;
+    }
+    .acc1 .paracc {
+        width: 42%;
+    }
+    .acc2 .imgacc {
+        margin-left: 45px;
+    }
+    .acc2 .paracc {
+        width : 53%;
+    }
+    footer .foodster {
+        margin-left: 10px;
+    }
+    .foodster img {
+        top : 2980px;
+    }
+    .category {
+        margin-left: -60px;
+    }
+    .card {
+        margin-left: -10px;
+    }
+    .information {
+        margin-left: 35px;
+    }
+    #end {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width : 1150px) {
+    body {
+        width : 100%;
+    }
+    .quote {
+        margin-left: 100px;
+    }
+    main .menu {
+        margin-left: 110px;
+    }
+    .menu .entite {
+        margin-right: 15px;
+    }
+    .repas {
+        margin-left : -10px;
+    }
+    .acc1 .imgacc {
+        margin-left: 75px;
+    }
+    .acc1 .paracc {
+        width : 45%;
+    }
+    .acc2 .imgacc {
+        margin-left: 10px;
+    }
+    .acc2 .paracc {
+        width : 60%;
+    }
+    main .deliver {
+        margin-left: 80px;
+    }
+    .txtdeliver .option {
+        width : 50%;
+        height: 20px;
+    }
+    .option .livraison {
+        margin-top: -5px;
+    }
+    #end {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width  : 1100px) {
+    body {
+        width : 100%;
+    }
+    .delicieux, .abordable, .sain {
+        height : 180px;
+        width : 180px;
+        border-radius: 180px;
+    }
+    .delicieux p, .abordable p {
+        margin-top : -5px;
+    }
+    main .menu {
+        margin-left: 100px;
+    }
+    .menu .entite {
+        margin-right: 10px;
+    }
+    .recette img {
+        height : 170px;
+        margin-left: 15px;
+    }
+    .repas {
+        margin-left : -15px;
+    }
+    #nb .nbpara {
+        margin-top: -20px;
+    }
+    footer {
+        font-size: 0.9em;
+    }
+    .foodster img {
+        top : 2920px;
+    }
+    #end {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width : 1075px) {
+    body {
+        width : 100%;
+    }
+    .acc1 .features {
+        height : 190px;
+    }
+    .acc1 .imgacc {
+        margin : 25px 0px 0px 60px;
+    }
+    .acc2 .features {
+        height : 190px;
+    }
+    .acc2 .paracc {
+        width : 45%;
+    }
+    .acc2 .imgacc {
+        margin: 25px 0px 0px 60px;
+    }
+    main .deliver {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width : 1050px) {
+    body {
+        width : 100%;
+    }
+    header {
+        margin-left : 75px;
+    }
+    .devise p {
+        width : 90%;
+    }
+    .delicieux, .abordable, .sain {
+        height : 165px;
+        width : 165px;
+        border-radius: 165px;
+    }
+    .delicieux h3, .sain h3, .abordable h3 {
+        margin: 18px 0px 0px -5px;
+    }
+    .delicieux p, .abordable p, .sain p {
+        font-size: 0.75em;
+        margin-left: 10px;
+    }
+    .sain p{
+        margin-top: 0px;
+    }
+    .abordable p {
+        margin-top: 10px;
+    }
+    main .menu {
+        margin-left: 100px;
+    }
+    .menu .entite {
+        width : 115px;
+        margin-right: 10px;
+    }
+    .recette img {
+        height : 180px; 
+        margin-left: 15px;
+    }
+    main #nb {
+        margin-left: 70px;
+        width : 80%;
+        height : 250px;
+    }
+    #nb img {
+        width : 300px;
+    }
+    .repas {
+        width : 28%;
+        margin-left: -35px;
+    }
+    .txtdeliver .option {
+        margin : 30px 0px 0px 160px; 
+        font-size: 0.85em;
+    }
+    .foodster img {
+        top : 2900px;
+    }
+    .category {
+        margin-left: -70px;
+    }
+    .card {
+        margin-left: -20px;
+    }
+    #end {
+        margin-left : 30px;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    body {
+        width : 100%;
+    }
+    main .accompagnement {
+        margin-left: 90px;
+    }
+    .acc1 .features, .acc2 .features {
+        height : 220px;
+    }
+    footer .foodster {
+        margin : -30px 0px 0px 50px;
+    }
+    .features img {
+        margin-right: 20px;
+    }
+    .foodster img {
+        top : 3000px;
+    }
+    .category {
+        margin-left: 30px;
+    }
+    .card {
+        margin-left: 70px;
+    }
+    .information {
+        margin-left: 130px;
+    }
+    #end {
+        display: flex;
+        flex-direction: row;
+        align-items : center;
+        margin : 10px 0px 0px 150px;
+    }
+    .ref {
+        margin: 10px 0px 0px 120px;
+    }
+}
+
+@media screen and (max-width : 940px) {
+    body {
+        width : 100%;
+    }
+    header {
+        margin-left: 60px;
+    }
+    header ul {
+        margin: -130px 0px 0px 150px;
+    }
+    .quote {
+        margin-left : 65px;
+    }
+    main .menu {
+        margin-left: 70px;
+    }
+    main .recette {
+        margin-left: 115px;
+    }
+    .repas {
+        width : 30%;
+    }
+    main .accompagnement {
+        margin-left: 90px;
+    }
+    .acc1 .features, .acc2 .features {
+        height : 240px;
+    }
+    main .deliver {
+        font-size: 0.85em;
+    }
+    .foodster img {
+        top : 3060px;
+    }
+    .card {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    body {
+        width : 100%;
+    }
+    .delicieux, .abordable, .sain  {
+        height : 150px;
+        width : 150px;
+        border-radius: 150px;
+    }
+    .abordable p {
+        width : 98%;
+        margin: 0px 0px 0px 2px;
+    }
+    .recette img {
+        margin-left: 8px;
+    }
+    .repas {
+        font-size: 0.9em;
+    }
+    main #nb {
+        height : 210px;
+        margin-left: 65px;
+    }
+    #nb img {
+        width : 270px;
+        margin-top: 0px;
+    }
+    #nb .nbpara {
+        font-size : 0.95em;
+        margin-top: -30px;
+    }
+    .acc1 .features, .acc2 .features {
+        height : 250px; 
+        font-size: 0.95em;
+    }
+    .foodster img {
+        top : 3020px;
+    }
+    .information {
+        margin-left : 90px;
+    }
+    #end {
+        margin-left : 110px;
+    }
+}
+
+@media screen and (max-width : 850px) {
+    body {
+        width : 100%;
+    }
+    .recette img {
+        height: 160px;
+        margin-left: 15px;
+    }
+    #nb img {
+        width: 240px;
+        margin-top: 8px;
+    }
+    #nb .nbpara {
+        margin-top: -25px;
+    }
+    #nb p {
+        margin-top: 0px;
+    }
+    main .accompagnement {
+        margin-left: 80px;
+    }
+    .acc1 .features, .acc2 .features {
+        font-size: 0.9em;
+        height : 260px;
+    }
+    .acc1 .paracc, .acc2 .paracc {
+        width : 30%;
+    }
+    .deliver img {
+        width : 62%;
+    }
+    .deliver .txtdeliver {
+        right : 80px;
+    }
+    .txtdeliver .option {
+        margin-left: 40px;
+    }
+    .foodster img {
+        top : 3040px
+    }
+}
+
+@media screen and (max-width : 800px) {
+    body {
+        width : 100%;
+    }
+    .quote img {
+        visibility: collapse;
+    }
+    .quote .devise {
+        flex : 0 0 80%;
+        margin-left: 25px;
+    }
+    .delicieux, .abordable, .sain {
+        height : 185px;
+        width : 185px;
+        border-radius: 185px;
+    }
+    .delicieux p, .abordable p, .sain p {
+        margin-top: 15px;
+    }
+    .delicieux h3, .abordable h3, .sain h3 {
+        margin-top: 25px;
+    }
+    main .menu {
+        margin-left: 60px;
+    }
+    main .recette {
+        margin-left: 100px;
+    }
+    .recette img {
+        height : 140px;
+        margin-left: 20px;
+    }
+    main #nb {
+        margin-left: 50px;
+    }
+    #nb .nbpara {
+        font-size: 0.9em;
+        margin-top: -30px;
+    }
+    #nb p {
+        width : 105%;
+        margin-top: -10px;
+    }
+    main .accompagnement {
+        width : 180%;
+        display: block;
+        margin-left: 140px;
+    }
+    .acc1 .features, .acc2 .features {
+        font-size: 1em;
+        height : 190px;
+        width : 500px;
+    }
+    .acc2 .features{
+        margin-left: -30px;
+    }
+    .acc1 img, .acc2 img {
+        margin-left: -20px;
+    }
+    .acc1 .paracc, .acc2 .paracc {
+        width : 200%;
+        box-sizing: border-box;
+    }
+    .imgacc {
+        width : 35%;
+    }
+    footer .foodster {
+        margin-left : 20px;
+    }
+    .foodster img {
+        top : 3580px;
+    }
+    .card {
+        margin-left: 10px;
+    }
+    .information {
+        margin-left: 60px;
+    }
+    #end {
+        margin-left: 80px;
+    }
+    .ref {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width : 750px) {
+    body {
+        width : 100%;
+    }
+    main .accompagnement {
+        margin-left: 110px;
+    }
+    .imgdeliver {
+        visibility: collapse;
+    }
+    .deliver .txtdeliver {
+        width : 60%;
+        font-size: 1.1em;
+        margin-right: 80px;
+    }
+    footer {
+        overflow-y: hidden;
+    }
+    .txtdeliver .option {
+        width : 80%;
+        font-size: 1em;
+        margin-left: -10px;
+    }
+    .foodster {
+        visibility: collapse;
+    }
+    .card {
+        margin-left: 70px;
+    }
+    .information {
+        margin-left: 120px;
+    }
+}
+
+@media screen and (max-width : 735px) {
+    body {
+        width : 100%;
+    }
+    .quote .devise {
+        margin-left: 0px;
+    }
+    main .menu {
+        margin-left: 50px;
+    }
+    main .recette {
+        margin-left: 90px;
+    }
+    .recette img {
+        margin-left: 13px;
+    }
+    main #nb {
+        height : 200px;
+        margin-left: 40px;
+    }
+    #nb img {
+        width : 220px;
+    }
+    #nb .nbpara {
+        margin-top: -35px;
+        width : 110%;
+        margin-left: 15px;
+    }
+    #nb p {
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width : 698px) {
+    body {
+        width : 100%;
+    }
+    header {
+        margin-left: 50px;
+    }
+    .quote .devise {
+        margin-left: -25px;
+    }
+    main .recette {
+        margin-left: 100px;
+    }
+    .repas {
+        width : 42%;
+        margin-right: 70px;
+    }
+    .recette img {
+        height : 190px;
+        margin-left: 15px;
+    }
+    main > h2 {
+        font-size: 1.6em;
+    }
+    main .accompagnement {
+        margin-left: 125px;
+    }
+    .acc1 .features, .acc2 .features {
+        width : 80%;
+    }
+    footer {
+        margin-top: 140px;
+    }
+    .category {
+        margin-left: 10px;
+    }
+    .card {
+        margin-left: 40px;
+    }
+    .information {
+        margin-left: 90px;
+    }
+    #end {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width : 650px) {
+    body {
+        width : 100%;
+    }
+    .delicieux, .abordable, .sain {
+        width : 170px;
+        height : 170px;
+        border-radius: 170px;
+    }
+    .recette img {
+        height : 165px;
+        margin-left: 20px;
+    }
+    #nb img {
+        width : 200px;
+    }
+    #nb .nbpara {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width : 630px) {
+    body {
+        width : 100%;
+    }
+    main > h2 {
+        margin-left: -60px;
+    }
+    main .accompagnement {
+        margin-left: 80px;
+    }
+    .acc1 .features, .acc2 .features {
+        height : 220px;
+    }
+    footer {
+        margin-top: 200px;
+    }
+    #end .mailus {
+        visibility: collapse;
+    }
+    .ref {
+        margin-left : 130px;
+    }
+    .ref .icone {
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width : 610px) {
+    body {
+        width : 100%;
+    }
+    header img {
+        height : 150px;
+        margin-top: -25px;
+    }
+    header ul {
+        margin: -100px 0px 0px 130px;
+    }
+    header ul li {
+        font-size: 0.85em;
+        margin-right: -10px;
+    }
+    .quote {
+        visibility: collapse;
+        }
+    main .menu {
+        width : 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: -200px 0px 0px 50px;
+        font-size: 0.9em;
+    }
+    .menu .entite {
+        width : 20%;
+        margin-top: 10px;
+    }
+    main .recette {
+        margin-left: 80px;
+    }
+    .recette img {
+        margin-left: 12px;
+    }
+    main #nb {
+        height : 150px;
+        margin-left: 30px;
+    }
+    #nb img {
+        visibility: collapse;
+    }
+    #nb .nbpara {
+         margin: -20px 20px 0px -190px;
+    }
+    .card {
+        margin-left: 10px;
+    }
+    .information {
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width : 560px) {
+    body {
+        width : 100%;
+    }
+    header ul {
+        margin-left: 100px;
+    }
+    .recette img {
+        height : 140px;
+        margin-left: 20px;
+    }
+    .imgacc {
+        width : 50%;
+    }
+    .paracc {
+        font-size: 0.9em;
+    }
+    .card {
+        margin-left: 0px;
+    }
+    .information {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width : 515px) {
+    body {
+        width : 100%;
+    }
+    main .recette {
+        margin-left: 120px;
+    }
+    .repas {
+        width : 70%;
+    }
+    .recette img {
+        height : 220px;
+        margin-left: 25px;
+    }
+    main #nb {
+        width : 75%;
+        margin-top: 40px;
+    }
+    #nb .nbpara {
+        font-size: 0.75em;
+    }
+}

@@ -1,0 +1,577 @@
+body {
+    margin : 0;
+    background-color: rgba(250, 248, 248, 0.966);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    margin : 15px 0px 0px 90px; 
+    border-radius: 75px;
+    background-color: rgba(6, 21, 66, 0.918);
+    border: 2px solid rgb(4, 16, 51);
+    display: inline-block;
+    width : 85%;
+    height: 100px;
+}
+
+header img {
+    height: 200px;
+    margin: -50px 0px 0px 20px ;
+}
+
+header ul {
+    float : right;
+    margin : -120px 30px 0px 0px;
+}
+
+header ul li {
+    display: inline;
+    padding : 25px;
+}
+
+header ul li a {
+    color : whitesmoke;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+header ul li a:active {
+    color : rgb(153, 151, 151);
+}
+
+body > p {
+    width : 55%;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    font-style: italic;
+    margin: 0px 100px 30px 120px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    width : 70%;
+    margin: 0px 50px 0px 60px;
+}
+
+.imgmis img{
+    width : 650px;
+    margin-left: 60px;
+}
+
+.valeur h2 {
+    font-size: 1.9em;
+    color :rgba(6, 21, 66, 0.918);
+    text-align: center;
+}
+
+.valeur p {
+    width : 85%;
+    margin : 0px 20px 0px 40px;
+}
+
+.valeur ul {
+    margin-right: 60px;
+}
+
+span {
+    font-weight: bold;
+}
+
+aside h2 {
+    font-size: 2em;
+    color :rgba(6, 21, 66, 0.918);
+    margin-top: 50px;
+    text-align: center;
+}
+
+table {
+    width : 60%;
+    margin: 30px 0px 20px 250px;
+    border : 1px solid rgb(53, 52, 52);
+}
+
+thead {
+    background-color: rgba(255, 208, 0, 0.856);
+}
+
+th {
+    border : 1px solid rgb(53, 52, 52);
+}
+
+tr td {
+    text-align: center;
+    border : 1px solid rgb(53, 52, 52);
+}
+
+tr td a {
+    text-decoration: none;
+    color : black;
+}
+
+article {
+    background-color: rgba(255, 208, 0, 0.856);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.377);
+    padding: 30px;
+    border-radius: 30px;
+    width : 30%;
+    height : 750px;
+    float: right;
+    margin: -100px 60px 0px 0px;
+}
+
+article img {
+    width : 95%;
+}
+
+footer {
+    margin-top: 35px;
+    background-color: rgba(6, 21, 66, 0.918);
+    color : whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 5px;
+}
+
+footer .foodster {
+    width : 17%;
+    margin : 0px 60px 0px 30px;
+}
+
+.foodster img {
+    position : absolute;
+    top : 1390px;
+    width: 150px;
+}
+
+.foodster p {
+    margin-top: 110px;
+}
+
+.category h3 {
+    margin-left: 40px;
+}
+
+.category ul li {
+    list-style-type: none;
+    padding : 1px;
+}
+
+.category ul li a {
+    text-decoration: none;
+    color : whitesmoke;
+}
+
+.category ul li a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    margin-left: 20px;
+}
+
+.card h3 {
+    margin-left: 40px;
+}
+
+.card ul li {
+    list-style-type: none;
+    padding : 1px;
+}
+
+.card ul li a {
+    text-decoration: none;
+    color : whitesmoke;
+}
+
+.card ul li a:hover {
+    text-decoration: underline;
+}
+
+.information {
+    margin-left: 60px;
+    display : flex;
+}
+
+.information .font {
+    margin : 67px 0px 0px -50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.information i {
+    padding-bottom: 7px;
+}
+
+.information .para {
+    margin : 59px 0px 0px 5px;
+}
+
+.information p {
+    margin : 3px;
+}
+
+#end {
+    margin : 5px 0px 0px 80px;
+}
+
+.mailus {
+    font-size: 0.9em;
+}
+
+.mailus input{
+    width : 70%;
+    height: 22px;
+    border : none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.mailus .ok {
+    font-weight: 700;
+    background-color: rgba(255, 208, 0, 0.856);;
+    color : black;
+    width : 15%;
+    height: 22px;
+    cursor : pointer;
+}
+
+.ref {
+    margin-top : 60px;
+    text-align : right;
+}
+
+.ref i {
+    padding-right : 10px;
+}
+
+.ref p{
+    margin : 0;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width : 1325px) {
+    body {
+        width : 100%;
+    }
+    #intro {
+        margin-left: 70px;
+    }
+    .mission {
+        margin-left: -25px;
+    }
+    .category {
+        margin-left: -50px;
+    }
+    #end {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width : 1250px) {
+    body {
+        width : 100%;
+    }
+    .foodster img {
+        top : 1410px;
+    }
+    .category {
+        margin-left: -60px;
+    }
+    .card {
+        margin-left : -10px;
+    }
+    .information {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width : 1200px) {
+    body {
+        width : 100%;
+    }
+    .imgmis img{
+        width : 600px;
+    }
+    #end {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width : 1150px) {
+    body {
+        width : 100%;
+    }
+    article p {
+        font-size: 0.95em;
+    }
+    .foodster img {
+        top : 1430px;
+    }
+    .category {
+        margin-left: -75px;
+    }
+    .card {
+        margin-left: -15px;
+    }
+    .information {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width : 1100px) {
+    body {
+        width : 100%;
+    }
+    .imgmis img {
+        width : 500px;
+    }
+    article {
+        width : 35%;
+    }
+    footer {
+        font-size: 0.9em;
+    }
+    .foodster img {
+        top : 1400px;
+    }
+    .information {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width : 1040px) {
+    body {
+        width : 100%;
+    }
+    aside {
+        margin-left: -60px;
+    }
+    .category {
+        margin-left: 0px;
+    }
+    .card {
+        margin-left: 30px;
+    }
+    .information {
+        margin-left: 100px;
+    }
+    #end {
+        display: flex;
+        flex-direction: row;
+        margin-left: 200px;
+    }
+    .ref {
+        margin: 25px 0px 0px 70px;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    body {
+        width : 100%;
+    }
+    .imgmis img {
+        width : 450px;
+    }
+    article {
+        height : 850px;
+    }
+    .foodster img {
+        top : 1470px;
+    }
+}
+
+@media screen and (max-width : 950px) {
+    body {
+        width : 100%;
+    }
+    article {
+        margin-top: -170px;
+    }
+    aside h2 {
+        margin-left: 130px;
+    }
+    .foodster img {
+        top : 1440px;
+    }
+    #end {
+        margin-left: 120px;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    body {
+        width : 100%;
+    }
+    header ul {
+        margin-left: 150px;
+    }
+    #intro {
+        width : 70%;
+        margin-left: 140px;
+    }
+    .principal {
+        display: flex;
+        flex-direction: column;
+    }
+    .imgmis img {
+        width : 500px;
+        margin-left: 160px;
+    }
+    .valeur {
+        width : 120%;
+        margin-left: 40px;
+    }
+    article {
+        float: unset;
+        width : 70%;
+        height : 700px;
+        margin: 40px 0px 0px 100px;
+    }
+    aside {
+        margin-left: -90px;
+    }
+    .foodster img {
+        top : 2110px;
+    }
+}
+
+@media screen and (max-width : 845px) {
+    body {
+        width : 100%;
+    }
+    .category {
+        margin-left: -55px;
+    }
+    .card {
+        margin-left: 10px;
+    }
+    .information {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width : 775px) {
+    body {
+        width : 100%;
+    }
+    header ul {
+        font-size: 0.9em;
+    }
+    .imgmis img {
+        margin-left: 110px;
+    }
+    article {
+        width : 60%;
+        height : 650px;
+    }
+    aside {
+        margin-left: -110px;
+    }
+    footer {
+        overflow-y: hidden;
+    }
+    .foodster {
+        visibility: collapse;
+    }
+    .category {
+        margin-left: 30px;
+    }
+    .card {
+        margin-left: 60px;
+    }
+    .information {
+        margin-left: 120px;
+    }
+    #end {
+        margin: -20px 0px 0px 50px;
+    }
+}
+
+@media screen and (max-width : 725px) {
+    body {
+        width : 100%;
+    }
+    header {
+        margin-left: 50px;
+    }
+    #intro {
+        margin-left: 110px;
+    }
+    .imgmis img {
+        margin-left: 70px;
+    }
+    table {
+        margin-left: 210px;
+    }
+}
+
+@media screen and (max-width : 670px) {
+    body {
+        width : 100%;
+    }
+    .card {
+        margin-left : 20px;
+    }
+    .information {
+        margin-left: 80px;
+    }
+    .mailus {
+        visibility: collapse;
+    }
+    #end {
+        margin-top: -40px;
+    }
+    .ref {
+        margin: 30px 0px 0px 130px;
+    }
+    .icone {
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width : 620px) {
+    body {
+        width : 100%;
+    }
+    header img {
+        height : 150px;
+        margin-top: -20px;
+    }
+    #intro {
+        margin-left: 90px;
+        font-size: 1.1em;
+    }
+    .imgmis img {
+        width : 450px;
+        margin-left: 50px;
+    }
+    .valeur {
+        margin-left: 10px;
+    }
+    .card {
+        margin-left: 10px;
+    }
+    .information {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width : 570px) {
+    body {
+        width : 100%;
+    }
+    header ul {
+        font-size: 0.8em;
+        margin: -100px 0px 0px 120px;
+    }
+}
